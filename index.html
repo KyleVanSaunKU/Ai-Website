@@ -1,15 +1,11 @@
-from openai import OpenAI
-client = OpenAI()
-
-completion = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[
-        {"role": "system", "content": "You are a helpful assistant."},
-        {
-            "role": "user",
-            "content": "Write me a fun fact."
-        }
-    ]
-)
-
-print(completion.choices[0].message)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ai-Website</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.10.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.10.1/core.js"></script>
+</head>
+<body>
+    <script type="py" src="ai.py" config="./pyscript.json"></script>
+</body>
+</html>
