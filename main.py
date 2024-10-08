@@ -1,3 +1,3 @@
 import os
 
-print(os.environ.get(api_key))
+print(os.environ.get('api_key'))
