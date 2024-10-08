@@ -20,5 +20,5 @@ jobs:
           
       - name: Run Python Script
         run:
-          pip install requests
+          pip install openai
           python main.py
