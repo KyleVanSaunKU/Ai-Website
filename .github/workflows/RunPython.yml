@@ -4,4 +4,4 @@ on:
   workflow_dispatch:
   
 env:
-  api_key: ${{ secrets.API_KEY }}
+  api_key: "dumb"
