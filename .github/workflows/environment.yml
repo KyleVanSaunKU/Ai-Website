@@ -1,0 +1,2 @@
+env:
+  setx OPENAI_API_KEY ${{ sexrets.API_KEY }}
