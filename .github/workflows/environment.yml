@@ -1,4 +1,0 @@
-env:
-  setx OPENAI_API_KEY ${{ secrets.API_KEY }}
-run:
-  pip install openai
