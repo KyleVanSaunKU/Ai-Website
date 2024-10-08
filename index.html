@@ -1,1 +1,20 @@
-hello world
+<html>
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  </head>
+  <body>
+    <py-script>
+      import openai
+      openai.api_key = ${{ secrets.API_KEY }}
+
+      response = openai.ChatCompletion(
+        model="gpt-3.5-turbo",
+        message=[
+          {"role": "user", "content": "Give me a random fact."}
+        ]
+      )
+      print(response)
+    </py-script>
+  </body>
+</html>
