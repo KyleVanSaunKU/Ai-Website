@@ -1,2 +1,2 @@
 print("bruh")
-print(os.environ["api_key"])
+print(os.environ[api_key])
