@@ -1,2 +1,1 @@
-import os
-print("this")
+print("hello world")
