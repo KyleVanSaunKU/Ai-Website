@@ -21,4 +21,5 @@ jobs:
       - name: Run Python Script
         run:
           pip install openai
+          setx OPENAI_API_KEY ${{ secrets.API_KEY }}
           python main.py
