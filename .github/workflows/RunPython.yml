@@ -2,8 +2,6 @@ name: Run Python Script
 
 on:
   push:
-    branches:
-      - main
   
 env:
   api_key: dumb
