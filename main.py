@@ -1,2 +1,2 @@
 import os
-print("work")
+print("this")
