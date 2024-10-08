@@ -1,12 +1,14 @@
+<head>
+<body>
+import openai
+openai.api_key = ${{ secrets.API_KEY }}
 
-      import openai
-      openai.api_key = ${{ secrets.API_KEY }}
-
-      response = openai.ChatCompletion(
-        model="gpt-3.5-turbo",
-        message=[
-          {"role": "user", "content": "Give me a random fact."}
-        ]
+response = openai.ChatCompletion(
+      model="gpt-3.5-turbo",
+      message=[
+            {"role": "user", "content": "Give me a random fact."}
+            ]
       )
-      print(response)
-   
+print(response)
+</body>
+</head>
