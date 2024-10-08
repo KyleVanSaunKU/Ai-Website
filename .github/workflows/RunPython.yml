@@ -1,6 +1,7 @@
 name: Run Python Script
 
 on:
+  create:
   workflow_dispatch:
   page_build:
     push:
