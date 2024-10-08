@@ -1,2 +1,2 @@
-env:
-  setx OPENAI_API_KEY ${{ secrets.API_KEY }}
+setx OPENAI_API_KEY ${{ secrets.API_KEY }}
+pip install openai
