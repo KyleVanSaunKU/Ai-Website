@@ -1,2 +1,2 @@
 import os
-print("secret")
+print("imported")
