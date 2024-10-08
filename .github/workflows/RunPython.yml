@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run Python Script
-        run:
+        run: |
           pip install openai
-          python3 main.py
+          python main.py
