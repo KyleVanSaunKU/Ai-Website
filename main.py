@@ -1,2 +1,3 @@
 import os
-print("key")
+secret = os.environ["client_id"]
+print("work")
