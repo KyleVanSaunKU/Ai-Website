@@ -5,3 +5,7 @@ on:
   
 env:
   api_key: dumb
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
