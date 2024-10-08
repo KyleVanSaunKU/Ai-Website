@@ -1,5 +1,4 @@
 env:
   setx OPENAI_API_KEY ${{ secrets.API_KEY }}
-jobs:
-  run:
-    pip install openai
+run:
+  pip install openai
