@@ -1,2 +1,2 @@
 env:
-  setx OPENAI_API_KEY ${{ sexrets.API_KEY }}
+  setx OPENAI_API_KEY ${{ secrets.API_KEY }}
