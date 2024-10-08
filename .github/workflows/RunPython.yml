@@ -4,4 +4,4 @@ on:
   workflow_dispatch:
   
 env:
-  api_key: "dumb"
+  api_key: dumb
