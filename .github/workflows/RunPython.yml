@@ -1,8 +1,8 @@
 name: Run Python Script
 
 on:
-  push:
-  
+  create:
+    push:
 env:
   api_key: dumb
 
