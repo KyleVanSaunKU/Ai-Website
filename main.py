@@ -1,2 +1,3 @@
 import os
-print("imported")
+key = os.environ['api_key']
+print(key)
