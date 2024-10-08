@@ -1,2 +1,6 @@
 env:
+  setx OPENAI_API_KEY ${{ secrets.MY_API_KEY }}
   client_key: ${{ secrets.MY_API_KEY }}
+job:
+  pip install openai
+  python ai.py
