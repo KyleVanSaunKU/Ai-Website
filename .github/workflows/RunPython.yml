@@ -1,7 +1,7 @@
 name: Run Python Script
 
 on:
-  create:
+  page_build:
     push:
 env:
   api_key: dumb
