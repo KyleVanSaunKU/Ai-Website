@@ -17,4 +17,4 @@ jobs:
       - name: Run Python Script
         run: |
           pip install openai
-          python main
+          main.py
