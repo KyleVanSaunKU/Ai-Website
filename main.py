@@ -1,3 +1,3 @@
 import os
-secret = os.environ["client_id"]
+secret = os.environ["api_key"]
 print("work")
