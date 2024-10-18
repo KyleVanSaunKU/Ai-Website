@@ -16,7 +16,10 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
+  
+env:
+  api_key: dumb
+  
 jobs:
   # Single deploy job since we're just deploying
   deploy:
